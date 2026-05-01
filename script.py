@@ -24,6 +24,7 @@ warnings.filterwarnings('ignore')
 # Seccion 1: Definicion de datos
 # Empresa ficticia: NorthGrid Colocation S.A. de C.V., Monterrey, NL
 # Cliente: Fintech "ÁgilPay" — necesita rack dedicado de alta densidad
+
 # Restricciones del rack:
 #   - Límite térmico (TDP): 12,000 W por rack (PDU de 15 kVA, factor 0.80)
 #   - Presupuesto CAPEX: $850,000 MXN
