@@ -12,7 +12,7 @@
 ```
 PIA_Inv/
 ├── script.py          # Modelo principal: PuLP + análisis de sensibilidad + visualizaciones
-├── server.py          # API backend con FastAPI (conecta el frontend con el solver)
+├── main.py          # API backend con FastAPI (conecta el frontend con el solver)
 ├── frontend/          # Interfaz interactiva React + Vite
 │   ├── src/
 │   │   └── App.jsx
@@ -67,7 +67,7 @@ pip install fastapi uvicorn pulp pandas pydantic
 ```
 
 ```bash
-uvicorn server:app --reload --port 8000
+uvicorn main:app --reload --port 8000
 ```
 
 Verifica que esté corriendo entrando a: [http://localhost:8000/docs](http://localhost:8000/docs)
